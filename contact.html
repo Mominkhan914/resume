@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/brands.min.js">
+
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          
+        }
+        body{
+          
+          background-image:url(photo2.jfif);
+          background-size:cover;
+          background-attachment: fixed;
+          width: 700px;
+          
+          
+        }
+        nav a{
+         
+          text-decoration: none;
+          text-transform: capitalize;
+          color: rgb(196, 195, 195);
+          font-size: 20px;
+          font-weight: 600;
+          padding: 0 10px;
+          margin: 0 30px;
+          position: relative;
+          transition: all 0.3s;
+        
+        }
+         nav a:hover{
+          color:white;
+        }
+        nav a::before{
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -10px;
+          width: 0%;
+          height: 3px;
+          background-color:rgb(237, 181, 26);
+          transition: all 0.3s;
+        }
+        nav a:hover:before{
+          width: 100%;
+        }
+        nav{
+          margin-left: 450px;
+          line-height: 45px;
+        }
+        #Mslogo1{
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        }
+        header{
+          top: 10px;
+          background-color: rgba(0, 0, 0, 0.613);
+          border-radius: 20px;
+          position: fixed;
+          z-index: 1;
+          
+        }
+        
+        #home{
+        
+          box-sizing: border-box;
+          font-size: 20px;
+          color: white;
+          margin-top: 100px;
+          width: 430px;
+          margin-left: 50px;
+        }
+        #home h1{
+        position: absolute;
+        left: 350px;
+        top: 390px;
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 2px;
+        transition: 0.5s;
+   
+      }
+      #home h1:hover{
+      background-color: rgb(92, 205, 57);
+      box-shadow: 0px 0px 5px 1px white;
+      }
+         #shadow {
+          
+          position: absolute;
+        top: 200px;
+          right: 50px;
+          opacity: 0.6;
+          transform: rotate(-30deg);}
+          #home p{
+            text-transform: capitalize;
+            font-size: 25px;
+            width: 380px;
+            
+            color: rgb(237, 181, 26);
+            
+            position: absolute;
+            
+          }
+          #shadow2{
+            border-bottom: 5px solid black;
+            border-radius: 50px;
+            position: absolute;
+          top: 100px;
+            right: 190px;
+            animation: momin 2s 1;
+            }
+            @keyframes momin {
+      from{
+        color: transparent;
+        right: 90px;
+      }to{
+        right: 190px;
+      }}
+            #facebook{
+            
+              position: absolute;
+            top: 520px;
+              right: 370px;
+              transition: 0.1s;
+              }
+              #whatsapp{
+            
+                position: absolute;
+              top: 520px;
+                right: 320px;
+                transition: 0.1s;
+                }
+                #gmail{
+            color: #f2f9fb;
+                  position: absolute;
+                top: 520px;
+                  right: 270px;
+                  transition: 0.1s;
+                  }
+                 #gmail:hover{
+                    color: rgb(237, 181, 26);
+                   
+                    font-size: 25px;
+                  }
+                  #whatsapp:hover{
+                    color: rgb(237, 181, 26);
+                    
+                    font-size: 25px;
+                  }  #facebook:hover{
+                    color: rgb(237, 181, 26);
+                    
+                    font-size: 25px;
+                  }</style>
+</head>
+<body>
+    <header>
+        <img src="Mslogo1.png" alt="" width="90px"  id="Mslogo1">
+            <nav>
+              
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="form.html.html">Projects</a>
+                <a href="">Contact</a>
+        
+            </nav>
+          </header>
+        
+            <section id="home" id="king">
+                
+             <img src="khan.png" alt="" width="800px">
+             <h1>Contact Me.</h1>
+              <img src="shadow3-removebg-preview.png" alt="" id="shadow">
+              <img src="momin-removebg-preview.png" alt="" id="shadow2" width="250px">
+              <i class="fa-brands fa-facebook" id="facebook"></i>
+              <i class="fa-brands fa-whatsapp" id="whatsapp"></i>
+              <i class="fa-solid fa-g" id="gmail"></i>
+              
+            
+            </section>
+</body>
+</html>
